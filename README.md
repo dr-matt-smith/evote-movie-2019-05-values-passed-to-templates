@@ -9,7 +9,7 @@ The project has been refactored as follows:
 
 - in `/src` create a file `controllerFunctions.php` to contain functions for our actions
 
-        - for each page create a function, that sets a `$pageTitle` variabel and requires in the templates code, e.g.
+        - for each page create a function, that sets a `$pageTitle` variable and requires in the templates code, e.g.
         
                 ```php
                     function aboutAction()
